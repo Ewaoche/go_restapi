@@ -1,6 +1,6 @@
-# Simple GO Lang REST API
+# Simple GO Lang REST 
 
-> Simple RESTful API to create, read, update and delete books. No database implementation yet
+> Simple RESTful  to create, read, update and delete books. No database implementation yet
 
 ## Quick Start
 
@@ -12,28 +12,28 @@ go get -u github.com/gorilla/mux
 
 ``` 
 go build
-./go_restapi
+./go_rest
 ```
 
 ## Endpoints
 
 ### Get All Books
 ``` 
-GET api/books
+GET /books
 ```
 ### Get Single Book
 ``` 
-GET api/books/{id}
+GET /books/{id}
 ```
 
 ### Delete Book
 ``` 
-DELETE api/books/{id}
+DELETE /books/{id}
 ```
 
 ### Create Book
 ``` 
-POST api/books
+POST /books
 
 # Request sample
 # {
@@ -45,7 +45,7 @@ POST api/books
 
 ### Update Book
 ``` 
-PUT api/books/{id}
+PUT /books/{id}
 
 # Request sample
 # {
