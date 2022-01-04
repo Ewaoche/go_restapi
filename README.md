@@ -9,10 +9,9 @@
 # Install mux router
 go get -u github.com/gorilla/mux
 ```
-
+# Run project
 ``` 
-go build
-./go_rest
+go run main.go
 ```
 
 ## Endpoints
@@ -24,6 +23,7 @@ GET /books
 ### Get Single Book
 ``` 
 GET /books/{id}
+GET /books/1
 ```
 
 ### Delete Book
